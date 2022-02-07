@@ -1,11 +1,12 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
 int main() {
-
 	int num = 0;
 	int answer = 0;
+	vector<int> nums;
 
 	cin >> num;
 	while (num != 1) {
