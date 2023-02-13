@@ -1,7 +1,5 @@
+var = list(range(10))
+print(type(var))
 
-print(1)
-while True :
-	a = input("input : ")
-	
-	if a == "end" :
-		break
+var = tuple(range(10))
+print(type(var))
